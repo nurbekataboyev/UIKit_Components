@@ -60,8 +60,6 @@ class profile: UIViewController {
 //        tableView.allowsSelection = true
         tableView.isScrollEnabled = false
         
-//        tableView.separatorInset
-        
         tableView.register(ProfileTableViewCell.self, forCellReuseIdentifier: ProfileTableViewCell.identifier)
         
         return tableView
